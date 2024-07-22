@@ -1,0 +1,260 @@
+h1{
+	color: #FEFCFD;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+	text-shadow: 5px 5px 10px black;
+}
+
+body{
+	background-image: url('./image/nouvellec.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.details-img{
+	width: 500px;
+	height: auto;
+	border: 10px solid white;
+	margin: 3em;
+	box-shadow: 10px 5px 5px black;
+}
+p {
+	color: #FEFCFD;
+	font-size: 25px;
+	text-align-last: center;
+	text-align: center;
+	float: right;
+}
+.d-flex {
+	display: flex;
+}
+.align-items-center {
+	align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 100%;
+  border-radius: 30px;
+  gap: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+.logo {
+	width: 100px;
+	height: auto;
+	border: 3px solid white;
+	margin: -15px;
+	border-radius: 100px;
+	border-color: orange;
+}
+.logpng {
+	width: 50px;
+	height: auto;
+}
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  flex: 1;
+  justify-content: space-around;
+  font-size: 160%;
+}
+
+.nav-item {
+  color: #83818c;
+  font-family: arial, sans-serif;
+  padding: 20px;
+  margin: 0 6px;
+  position: relative;
+}
+
+.nav-item:before {
+  position: absolute;
+  bottom: -6px;
+  background-color: #dfe2ea;
+  height: 5px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  transition: .3s;
+}
+
+.nav-item:not(.is-active):hover:before {
+  bottom: 0;
+}
+.nav-item:not(.is-active):hover {
+  color: #333;
+}
+
+.nav-indicator {
+  position: absolute;
+  height: 5px;
+  transition: .4s;
+  border-radius: 8px 8px;
+}
+.Nouméa{
+	width: 500px;
+	height: auto;
+	border: 10px solid white;
+	object-position: right center;
+	box-shadow: 10px 5px 5px black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: rgba(255,255,255,0.7);
+  margin: auto;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin: 0;
+  text-decoration: underline;
+}
+h2 {
+  padding: 5px;
+  text-align: center;
+	font-weight: bolder;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+.hotel{
+	color: black;
+	font-size: 25px;
+}
+.details-hotel{
+	color: black;
+	font-size: 200%;
+	margin-bottom: 3rem;
+	list-style-type: circle;
+	direction: rtl;
+}
+.details-hotel li a {
+	margin: 10px;
+	color: black;
+	justify-content: flex-end;
+	direction: rtl;
+	padding: 5px 10px;
+	transition: 0.4s;
+}
+.details-hotel li a:hover{
+	color: lightgray;
+	transition: 0.4s;
+}
+.interieur{
+	width: 290px;
+	border: 10px solid white;
+	margin: 3em;
+	box-shadow: 10px 5px 5px black;
+}
+.flex-center{
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.recif{
+	font-size: 30px;
+	align-items: center;
+	margin: 11rem;
+}
+.video1 {
+	object-position: left;
+	display: flex;
+	margin-right: auto;
+	margin-left: 2em;
+	margin-top: 2em;
+	float: left;
+}
+.desvideo1{
+	color: white;
+	text-align: center;
+	font-family: fantasy;
+	text-shadow: 5px 5px 10px black;
+	font-size: 35xp;
+	padding: 2em;
+}
+.coraux{
+	display: flex;
+}
+.video2 {
+	object-position: left;
+	display: flex;
+	margin-right: auto;
+	margin-left: 2em;
+	margin-top: 2em;
+	float: left;
+}
+.desvideo2{
+	color: white;
+	text-align: center;
+	font-family: fantasy;
+	text-shadow: 5px 5px 10px black;
+	font-size: 35xp;
+	padding: 2em;
+}
+
+.coraux2{
+	display: flex;
+}
+.video3{
+	object-position: left;
+	display: flex;
+	margin-right: auto;
+	margin-left: 2em;
+	margin-top: 2em;
+	float: left;
+}
+.desvideo3{
+	color: white;
+	text-align: center;
+	font-family: fantasy;
+	text-shadow: 5px 5px 10px black;
+	font-size: 35xp;
+	padding: 2em;
+	margin-top: -0.2em;
+}
+.coraux3{
+	display: flex;
+}
+.baieprony-ilotamedee-passeboulari{
+	color: blueviolet;
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
